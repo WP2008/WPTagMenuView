@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0CCC9C1C6111F3002651EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCC9B1C6111F3002651EA /* main.m */; };
+		AA0CCC9F1C6111F3002651EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCC9E1C6111F3002651EA /* AppDelegate.m */; };
+		AA0CCCA21C6111F3002651EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCA11C6111F3002651EA /* ViewController.m */; };
+		AA0CCCA51C6111F3002651EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0CCCA31C6111F3002651EA /* Main.storyboard */; };
+		AA0CCCA71C6111F3002651EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0CCCA61C6111F3002651EA /* Assets.xcassets */; };
+		AA0CCCAA1C6111F3002651EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0CCCA81C6111F3002651EA /* LaunchScreen.storyboard */; };
+		AA0CCCB51C6111F3002651EA /* WPTagMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCB41C6111F3002651EA /* WPTagMenuViewTests.m */; };
+		AA0CCCC01C6111F3002651EA /* WPTagMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCBF1C6111F3002651EA /* WPTagMenuViewUITests.m */; };
+		AA0CCCE81C611245002651EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA0CCCCE1C611245002651EA /* Info.plist */; };
+		AA0CCCE91C611245002651EA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCD01C611245002651EA /* MASCompositeConstraint.m */; };
+		AA0CCCEA1C611245002651EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCD31C611245002651EA /* MASConstraint.m */; };
+		AA0CCCEB1C611245002651EA /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCD51C611245002651EA /* MASConstraintMaker.m */; };
+		AA0CCCEC1C611245002651EA /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCD71C611245002651EA /* MASLayoutConstraint.m */; };
+		AA0CCCED1C611245002651EA /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCDB1C611245002651EA /* MASViewAttribute.m */; };
+		AA0CCCEE1C611245002651EA /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCDD1C611245002651EA /* MASViewConstraint.m */; };
+		AA0CCCEF1C611245002651EA /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCDF1C611245002651EA /* NSArray+MASAdditions.m */; };
+		AA0CCCF01C611245002651EA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCE21C611245002651EA /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		AA0CCCF11C611245002651EA /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCE41C611245002651EA /* View+MASAdditions.m */; };
+		AA0CCCF21C611245002651EA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCE71C611245002651EA /* ViewController+MASAdditions.m */; };
+		AA0CCCFB1C61129B002651EA /* WPTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCF61C61129B002651EA /* WPTag.m */; };
+		AA0CCCFC1C61129B002651EA /* WPTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCF81C61129B002651EA /* WPTagButton.m */; };
+		AA0CCCFD1C61129B002651EA /* WPTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCFA1C61129B002651EA /* WPTagView.m */; };
+		AA0CCD001C6112C8002651EA /* WPTagMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCCFF1C6112C8002651EA /* WPTagMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA0CCCB11C6111F3002651EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0CCC8F1C6111F3002651EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0CCC961C6111F3002651EA;
+			remoteInfo = WPTagMenuView;
+		};
+		AA0CCCBC1C6111F3002651EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0CCC8F1C6111F3002651EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0CCC961C6111F3002651EA;
+			remoteInfo = WPTagMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA0CCC971C6111F3002651EA /* WPTagMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPTagMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0CCC9B1C6111F3002651EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA0CCC9D1C6111F3002651EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA0CCC9E1C6111F3002651EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA0CCCA01C6111F3002651EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA0CCCA11C6111F3002651EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA0CCCA41C6111F3002651EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA0CCCA61C6111F3002651EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0CCCA91C6111F3002651EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA0CCCAB1C6111F3002651EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0CCCB01C6111F3002651EA /* WPTagMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPTagMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0CCCB41C6111F3002651EA /* WPTagMenuViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTagMenuViewTests.m; sourceTree = "<group>"; };
+		AA0CCCB61C6111F3002651EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0CCCBB1C6111F3002651EA /* WPTagMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPTagMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0CCCBF1C6111F3002651EA /* WPTagMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTagMenuViewUITests.m; sourceTree = "<group>"; };
+		AA0CCCC11C6111F3002651EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0CCCCE1C611245002651EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0CCCCF1C611245002651EA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		AA0CCCD01C611245002651EA /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		AA0CCCD11C611245002651EA /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		AA0CCCD21C611245002651EA /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		AA0CCCD31C611245002651EA /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		AA0CCCD41C611245002651EA /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		AA0CCCD51C611245002651EA /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		AA0CCCD61C611245002651EA /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		AA0CCCD71C611245002651EA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		AA0CCCD81C611245002651EA /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		AA0CCCD91C611245002651EA /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		AA0CCCDA1C611245002651EA /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		AA0CCCDB1C611245002651EA /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		AA0CCCDC1C611245002651EA /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		AA0CCCDD1C611245002651EA /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		AA0CCCDE1C611245002651EA /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		AA0CCCDF1C611245002651EA /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		AA0CCCE01C611245002651EA /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		AA0CCCE11C611245002651EA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		AA0CCCE21C611245002651EA /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		AA0CCCE31C611245002651EA /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		AA0CCCE41C611245002651EA /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		AA0CCCE51C611245002651EA /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		AA0CCCE61C611245002651EA /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		AA0CCCE71C611245002651EA /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		AA0CCCF51C61129B002651EA /* WPTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTag.h; sourceTree = "<group>"; };
+		AA0CCCF61C61129B002651EA /* WPTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTag.m; sourceTree = "<group>"; };
+		AA0CCCF71C61129B002651EA /* WPTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTagButton.h; sourceTree = "<group>"; };
+		AA0CCCF81C61129B002651EA /* WPTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTagButton.m; sourceTree = "<group>"; };
+		AA0CCCF91C61129B002651EA /* WPTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTagView.h; sourceTree = "<group>"; };
+		AA0CCCFA1C61129B002651EA /* WPTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTagView.m; sourceTree = "<group>"; };
+		AA0CCCFE1C6112C8002651EA /* WPTagMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTagMenuView.h; sourceTree = "<group>"; };
+		AA0CCCFF1C6112C8002651EA /* WPTagMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTagMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0CCC941C6111F3002651EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0CCCAD1C6111F3002651EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0CCCB81C6111F3002651EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0CCC8E1C6111F3002651EA = {
+			isa = PBXGroup;
+			children = (
+				AA0CCC991C6111F3002651EA /* WPTagMenuView */,
+				AA0CCCB31C6111F3002651EA /* WPTagMenuViewTests */,
+				AA0CCCBE1C6111F3002651EA /* WPTagMenuViewUITests */,
+				AA0CCC981C6111F3002651EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0CCC981C6111F3002651EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCC971C6111F3002651EA /* WPTagMenuView.app */,
+				AA0CCCB01C6111F3002651EA /* WPTagMenuViewTests.xctest */,
+				AA0CCCBB1C6111F3002651EA /* WPTagMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0CCC991C6111F3002651EA /* WPTagMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCC9D1C6111F3002651EA /* AppDelegate.h */,
+				AA0CCC9E1C6111F3002651EA /* AppDelegate.m */,
+				AA0CCCA01C6111F3002651EA /* ViewController.h */,
+				AA0CCCA11C6111F3002651EA /* ViewController.m */,
+				AA0CCCA31C6111F3002651EA /* Main.storyboard */,
+				AA0CCCF31C61126D002651EA /* WPTagMenuView */,
+				AA0CCCCD1C611245002651EA /* Masonry */,
+				AA0CCCA61C6111F3002651EA /* Assets.xcassets */,
+				AA0CCCA81C6111F3002651EA /* LaunchScreen.storyboard */,
+				AA0CCCAB1C6111F3002651EA /* Info.plist */,
+				AA0CCC9A1C6111F3002651EA /* Supporting Files */,
+			);
+			path = WPTagMenuView;
+			sourceTree = "<group>";
+		};
+		AA0CCC9A1C6111F3002651EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCC9B1C6111F3002651EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA0CCCB31C6111F3002651EA /* WPTagMenuViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCCB41C6111F3002651EA /* WPTagMenuViewTests.m */,
+				AA0CCCB61C6111F3002651EA /* Info.plist */,
+			);
+			path = WPTagMenuViewTests;
+			sourceTree = "<group>";
+		};
+		AA0CCCBE1C6111F3002651EA /* WPTagMenuViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCCBF1C6111F3002651EA /* WPTagMenuViewUITests.m */,
+				AA0CCCC11C6111F3002651EA /* Info.plist */,
+			);
+			path = WPTagMenuViewUITests;
+			sourceTree = "<group>";
+		};
+		AA0CCCCD1C611245002651EA /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCCCE1C611245002651EA /* Info.plist */,
+				AA0CCCCF1C611245002651EA /* MASCompositeConstraint.h */,
+				AA0CCCD01C611245002651EA /* MASCompositeConstraint.m */,
+				AA0CCCD11C611245002651EA /* MASConstraint+Private.h */,
+				AA0CCCD21C611245002651EA /* MASConstraint.h */,
+				AA0CCCD31C611245002651EA /* MASConstraint.m */,
+				AA0CCCD41C611245002651EA /* MASConstraintMaker.h */,
+				AA0CCCD51C611245002651EA /* MASConstraintMaker.m */,
+				AA0CCCD61C611245002651EA /* MASLayoutConstraint.h */,
+				AA0CCCD71C611245002651EA /* MASLayoutConstraint.m */,
+				AA0CCCD81C611245002651EA /* Masonry.h */,
+				AA0CCCD91C611245002651EA /* MASUtilities.h */,
+				AA0CCCDA1C611245002651EA /* MASViewAttribute.h */,
+				AA0CCCDB1C611245002651EA /* MASViewAttribute.m */,
+				AA0CCCDC1C611245002651EA /* MASViewConstraint.h */,
+				AA0CCCDD1C611245002651EA /* MASViewConstraint.m */,
+				AA0CCCDE1C611245002651EA /* NSArray+MASAdditions.h */,
+				AA0CCCDF1C611245002651EA /* NSArray+MASAdditions.m */,
+				AA0CCCE01C611245002651EA /* NSArray+MASShorthandAdditions.h */,
+				AA0CCCE11C611245002651EA /* NSLayoutConstraint+MASDebugAdditions.h */,
+				AA0CCCE21C611245002651EA /* NSLayoutConstraint+MASDebugAdditions.m */,
+				AA0CCCE31C611245002651EA /* View+MASAdditions.h */,
+				AA0CCCE41C611245002651EA /* View+MASAdditions.m */,
+				AA0CCCE51C611245002651EA /* View+MASShorthandAdditions.h */,
+				AA0CCCE61C611245002651EA /* ViewController+MASAdditions.h */,
+				AA0CCCE71C611245002651EA /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		AA0CCCF31C61126D002651EA /* WPTagMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCCFE1C6112C8002651EA /* WPTagMenuView.h */,
+				AA0CCCFF1C6112C8002651EA /* WPTagMenuView.m */,
+				AA0CCCF41C61129B002651EA /* WPTagView */,
+			);
+			path = WPTagMenuView;
+			sourceTree = "<group>";
+		};
+		AA0CCCF41C61129B002651EA /* WPTagView */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CCCF51C61129B002651EA /* WPTag.h */,
+				AA0CCCF61C61129B002651EA /* WPTag.m */,
+				AA0CCCF71C61129B002651EA /* WPTagButton.h */,
+				AA0CCCF81C61129B002651EA /* WPTagButton.m */,
+				AA0CCCF91C61129B002651EA /* WPTagView.h */,
+				AA0CCCFA1C61129B002651EA /* WPTagView.m */,
+			);
+			path = WPTagView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0CCC961C6111F3002651EA /* WPTagMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0CCCC41C6111F3002651EA /* Build configuration list for PBXNativeTarget "WPTagMenuView" */;
+			buildPhases = (
+				AA0CCC931C6111F3002651EA /* Sources */,
+				AA0CCC941C6111F3002651EA /* Frameworks */,
+				AA0CCC951C6111F3002651EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPTagMenuView;
+			productName = WPTagMenuView;
+			productReference = AA0CCC971C6111F3002651EA /* WPTagMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0CCCAF1C6111F3002651EA /* WPTagMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0CCCC71C6111F3002651EA /* Build configuration list for PBXNativeTarget "WPTagMenuViewTests" */;
+			buildPhases = (
+				AA0CCCAC1C6111F3002651EA /* Sources */,
+				AA0CCCAD1C6111F3002651EA /* Frameworks */,
+				AA0CCCAE1C6111F3002651EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0CCCB21C6111F3002651EA /* PBXTargetDependency */,
+			);
+			name = WPTagMenuViewTests;
+			productName = WPTagMenuViewTests;
+			productReference = AA0CCCB01C6111F3002651EA /* WPTagMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA0CCCBA1C6111F3002651EA /* WPTagMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0CCCCA1C6111F3002651EA /* Build configuration list for PBXNativeTarget "WPTagMenuViewUITests" */;
+			buildPhases = (
+				AA0CCCB71C6111F3002651EA /* Sources */,
+				AA0CCCB81C6111F3002651EA /* Frameworks */,
+				AA0CCCB91C6111F3002651EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0CCCBD1C6111F3002651EA /* PBXTargetDependency */,
+			);
+			name = WPTagMenuViewUITests;
+			productName = WPTagMenuViewUITests;
+			productReference = AA0CCCBB1C6111F3002651EA /* WPTagMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0CCC8F1C6111F3002651EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xianlvke;
+				TargetAttributes = {
+					AA0CCC961C6111F3002651EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AA0CCCAF1C6111F3002651EA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA0CCC961C6111F3002651EA;
+					};
+					AA0CCCBA1C6111F3002651EA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA0CCC961C6111F3002651EA;
+					};
+				};
+			};
+			buildConfigurationList = AA0CCC921C6111F3002651EA /* Build configuration list for PBXProject "WPTagMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0CCC8E1C6111F3002651EA;
+			productRefGroup = AA0CCC981C6111F3002651EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0CCC961C6111F3002651EA /* WPTagMenuView */,
+				AA0CCCAF1C6111F3002651EA /* WPTagMenuViewTests */,
+				AA0CCCBA1C6111F3002651EA /* WPTagMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0CCC951C6111F3002651EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0CCCE81C611245002651EA /* Info.plist in Resources */,
+				AA0CCCAA1C6111F3002651EA /* LaunchScreen.storyboard in Resources */,
+				AA0CCCA71C6111F3002651EA /* Assets.xcassets in Resources */,
+				AA0CCCA51C6111F3002651EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0CCCAE1C6111F3002651EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0CCCB91C6111F3002651EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0CCC931C6111F3002651EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0CCCF01C611245002651EA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				AA0CCCEE1C611245002651EA /* MASViewConstraint.m in Sources */,
+				AA0CCCE91C611245002651EA /* MASCompositeConstraint.m in Sources */,
+				AA0CCCFB1C61129B002651EA /* WPTag.m in Sources */,
+				AA0CCD001C6112C8002651EA /* WPTagMenuView.m in Sources */,
+				AA0CCCFD1C61129B002651EA /* WPTagView.m in Sources */,
+				AA0CCCEF1C611245002651EA /* NSArray+MASAdditions.m in Sources */,
+				AA0CCCFC1C61129B002651EA /* WPTagButton.m in Sources */,
+				AA0CCCA21C6111F3002651EA /* ViewController.m in Sources */,
+				AA0CCC9F1C6111F3002651EA /* AppDelegate.m in Sources */,
+				AA0CCCEC1C611245002651EA /* MASLayoutConstraint.m in Sources */,
+				AA0CCC9C1C6111F3002651EA /* main.m in Sources */,
+				AA0CCCF21C611245002651EA /* ViewController+MASAdditions.m in Sources */,
+				AA0CCCF11C611245002651EA /* View+MASAdditions.m in Sources */,
+				AA0CCCED1C611245002651EA /* MASViewAttribute.m in Sources */,
+				AA0CCCEA1C611245002651EA /* MASConstraint.m in Sources */,
+				AA0CCCEB1C611245002651EA /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0CCCAC1C6111F3002651EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0CCCB51C6111F3002651EA /* WPTagMenuViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0CCCB71C6111F3002651EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0CCCC01C6111F3002651EA /* WPTagMenuViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0CCCB21C6111F3002651EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0CCC961C6111F3002651EA /* WPTagMenuView */;
+			targetProxy = AA0CCCB11C6111F3002651EA /* PBXContainerItemProxy */;
+		};
+		AA0CCCBD1C6111F3002651EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0CCC961C6111F3002651EA /* WPTagMenuView */;
+			targetProxy = AA0CCCBC1C6111F3002651EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA0CCCA31C6111F3002651EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0CCCA41C6111F3002651EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA0CCCA81C6111F3002651EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0CCCA91C6111F3002651EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA0CCCC21C6111F3002651EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA0CCCC31C6111F3002651EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0CCCC51C6111F3002651EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPTagMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlvke.www.WPTagMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA0CCCC61C6111F3002651EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPTagMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlvke.www.WPTagMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA0CCCC81C6111F3002651EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPTagMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlvke.www.WPTagMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPTagMenuView.app/WPTagMenuView";
+			};
+			name = Debug;
+		};
+		AA0CCCC91C6111F3002651EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPTagMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlvke.www.WPTagMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPTagMenuView.app/WPTagMenuView";
+			};
+			name = Release;
+		};
+		AA0CCCCB1C6111F3002651EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPTagMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlvke.www.WPTagMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPTagMenuView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA0CCCCC1C6111F3002651EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPTagMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlvke.www.WPTagMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPTagMenuView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0CCC921C6111F3002651EA /* Build configuration list for PBXProject "WPTagMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0CCCC21C6111F3002651EA /* Debug */,
+				AA0CCCC31C6111F3002651EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0CCCC41C6111F3002651EA /* Build configuration list for PBXNativeTarget "WPTagMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0CCCC51C6111F3002651EA /* Debug */,
+				AA0CCCC61C6111F3002651EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA0CCCC71C6111F3002651EA /* Build configuration list for PBXNativeTarget "WPTagMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0CCCC81C6111F3002651EA /* Debug */,
+				AA0CCCC91C6111F3002651EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA0CCCCA1C6111F3002651EA /* Build configuration list for PBXNativeTarget "WPTagMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0CCCCB1C6111F3002651EA /* Debug */,
+				AA0CCCCC1C6111F3002651EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0CCC8F1C6111F3002651EA /* Project object */;
+}
