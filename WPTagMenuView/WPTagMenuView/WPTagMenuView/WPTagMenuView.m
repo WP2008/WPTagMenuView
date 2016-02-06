@@ -9,7 +9,12 @@
 #import "WPTagMenuView.h"
 #import "Masonry.h"
 #import "WPTagView.h"
-
+#undef  kScreenWidth
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width) // 获取屏幕宽度
+#undef  kScreenHeight
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height) // 获取屏幕高度
+#define kTagViewCellEdgeInsets UIEdgeInsetsMake(12, 12, 30, 12)
+#define kTagEdgeInsets UIEdgeInsetsMake(8, 12, 8, 12);
 /**
  *  -------------- WPSelectTagCell --------------
  */
@@ -52,7 +57,7 @@ typedef void(^WPSelectedTagBlock)(NSInteger index);
         [self.contentView addSubview:tagView];
         _tagView = tagView;
         _tagView.preferredMaxLayoutWidth = kScreenWidth;
-        _tagView.padding = UIEdgeInsetsMake(12, 12, 12, 12);
+        _tagView.padding = kTagViewCellEdgeInsets;
         _tagView.lineSpace = 10;
         _tagView.interitemSpacing = 10;
         _tagView.didClickTagAtIndex = ^(NSInteger index){
@@ -91,7 +96,7 @@ typedef void(^WPSelectedTagBlock)(NSInteger index);
         tag.borderColor = [UIColor grayColor];
         tag.borderWidth = 1.0;
         tag.cornerRadius = 5.0;
-        tag.padding = UIEdgeInsetsMake(8, 12, 8, 12);
+        tag.padding = kTagEdgeInsets;
         tag.enable = YES;
         [self.tagView addTag:tag];
         
@@ -118,8 +123,6 @@ typedef void(^WPSelectedTagBlock)(NSInteger index);
 
 @property (nonatomic, weak) UITableView *tableView;
 
-//@property (nonatomic, weak) UIButton *resetBtn;
-//@property (nonatomic, weak) UIButton *confirmBtn;
 
 @end
 @implementation WPTagMenuView
@@ -144,12 +147,11 @@ typedef void(^WPSelectedTagBlock)(NSInteger index);
 
 
 - (void)configSubViews {
+    
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self).insets(UIEdgeInsetsZero);
     }];
-//    
-//    [self resetBtn];
-//    [self confirmBtn];
+
     
 
 }
@@ -171,45 +173,6 @@ typedef void(^WPSelectedTagBlock)(NSInteger index);
     return _tableView;
 }
 
-//- (UIButton *)resetBtn {
-//    if (_resetBtn == nil) {
-//        UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
-//        [self addSubview:btn];
-//        _resetBtn = btn;
-//        [_resetBtn addTarget:self action:@selector(reset:) forControlEvents:UIControlEventTouchUpInside];
-//        _resetBtn.layer.cornerRadius = 5;
-//        _resetBtn.layer.masksToBounds = YES;
-//        _resetBtn.layer.borderWidth = 2;
-//        _resetBtn.frame = CGRectMake(20, self.frame.size.height - 35, 80, 30);
-//        [_resetBtn setTitle:@"重置" forState:UIControlStateNormal];
-//    }
-//    return _resetBtn;
-//}
-//
-//- (UIButton *)confirmBtn {
-//    if (_confirmBtn == nil) {
-//        UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
-//        [self addSubview:btn];
-//        _confirmBtn = btn;
-//        [_confirmBtn addTarget:self action:@selector(confirm:) forControlEvents:UIControlEventTouchUpInside];
-//        _confirmBtn.layer.cornerRadius = 5;
-//        _confirmBtn.layer.masksToBounds = YES;
-//        _confirmBtn.layer.borderWidth = 2;
-//        _confirmBtn.frame = CGRectMake(150, self.frame.size.height - 35, 80, 30);
-//        [_confirmBtn setTitle:@"确定" forState:UIControlStateNormal];
-//    }
-//    return _confirmBtn;
-//}
-//
-//- (void)reset:(UIButton *)btn {
-//
-//
-//}
-//
-//- (void)confirm:(UIButton *)btn {
-//
-//
-//}
 
 #pragma mark - tableView
 
@@ -250,7 +213,6 @@ typedef void(^WPSelectedTagBlock)(NSInteger index);
     }
  
 }
-
 
 
 #pragma mark - public 

@@ -8,19 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-#define kScreenWidth ([UIScreen mainScreen].bounds.size.width) // 获取屏幕宽度
-#define kScreenHeight ([UIScreen mainScreen].bounds.size.height) // 获取屏幕高度
+
 
 @class  WPTagMenuView;
 @protocol  WPTagMenuViewDataSource<NSObject>
+@required
 /** 一共几个可以点击区域 */
 - (NSInteger)numberOfSectionsInTagMenu:(WPTagMenuView *)tagMenu ;
 /** 每一个section 的tag 值 */
-- (NSArray<NSString *> *)tagMenu:(WPTagMenuView *)tagMenu tagsForSectionIndex:(NSInteger)index;
+- (NSArray<NSString *> *)tagMenu:(WPTagMenuView *)tagMenu tagsForSectionIndex:(NSInteger)section;
 
 - (void)tagMenu:(WPTagMenuView *)tagMenu didSelectTagAtSection:(NSInteger)section tagIndex:(NSInteger)index;
 
-@required
+@optional
 /**header title */
 - (NSString *)tagMenu:(WPTagMenuView *)tagMenu titleForHeaderInSection:(NSInteger)section;
 
